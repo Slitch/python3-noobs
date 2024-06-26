@@ -4,18 +4,18 @@ Exercise 1: Simple List Comprehension
 Task: Create a list of squares for numbers from 1 to 10 using list comprehension.
 
 Normal loop way:
-
+```python
 squares = []
 for x in range(1, 11):
     squares.append(x**2)
 
 print(squares)
-
+```
 Comprehension List Way:
-
+```python
 squares = [x**2 for x in range(1, 11)]
 print(squares)
-
+```
 
 Exercise 2: Filtering with List Comprehension
 Task: Given a list of numbers, create a new list that contains only the even numbers.
