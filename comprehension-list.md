@@ -1,6 +1,7 @@
 Here are some exercises to help you get used to list comprehensions in Python.
 
 Exercise 1: Simple List Comprehension 
+
 Task: Create a list of squares for numbers from 1 to 10 using list comprehension.
 Normal loop way:
 ```python
