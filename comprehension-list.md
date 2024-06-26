@@ -1,8 +1,7 @@
-Here are some exercises to help you get used to list comprehensions in Python:
+Here are some exercises to help you get used to list comprehensions in Python.
+
 Exercise 1: Simple List Comprehension
-
 Task: Create a list of squares for numbers from 1 to 10 using list comprehension.
-
 Normal loop way:
 ```python
 squares = []
@@ -16,7 +15,6 @@ Comprehension List Way:
 squares = [x**2 for x in range(1, 11)]
 print(squares)
 ```
-
 Exercise 2: Filtering with List Comprehension
 Task: Given a list of numbers, create a new list that contains only the even numbers.
 
@@ -36,7 +34,6 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 evens = [x for x in numbers if x % 2 == 0]
 print(evens)
 ```
-
 Exercise 3: Using a Function in List Comprehension
 Task: Given a list of words, create a new list with the lengths of those words.
 
@@ -57,7 +54,6 @@ print(lengths)
 ```
 Exercise 4: Conditional Expressions in List Comprehension
 Task: Create a list of numbers from 1 to 20, but replace every number divisible by 3 with the string "Fizz".
-
 Normal Loop Way:
 ```python
 fizz_list = []
@@ -74,7 +70,6 @@ Comprehension List Way:
 fizz_list = ["Fizz" if x % 3 == 0 else x for x in range(1, 21)]
 print(fizz_list)
 ```
-
 Exercise 5: Nested List Comprehensions
 Task: Create a 3x3 matrix using list comprehension.
 
@@ -94,7 +89,6 @@ Comprehension List Way:
 matrix = [[j for j in range(3)] for i in range(3)]
 print(matrix)
 ```
-
 Exercise 6: Flatten a List of Lists
 Task: Flatten a given 2D list into a 1D list.
 
@@ -114,7 +108,6 @@ matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 flat_list = [num for row in matrix for num in row]
 print(flat_list)
 ```
-
 Exercise 7: List Comprehension with Strings
 Task: Given a list of sentences, create a list of words by splitting each sentence into words.
 
@@ -134,11 +127,9 @@ sentences = ["Hello world", "List comprehensions are powerful", "Practice makes 
 words = [word for sentence in sentences for word in sentence.split()]
 print(words)
 ```
-
 Exercise 8: Convert Celsius to Fahrenheit
 Task: Given a list of temperatures in Celsius, create a list of temperatures in Fahrenheit using the formula F=95C+32F=59​C+32.
 F=9/3 C + 32
-
 Normal Loop Way:
 ```python
 celsius = [0, 10, 20, 30, 40]
@@ -154,10 +145,8 @@ celsius = [0, 10, 20, 30, 40]
 fahrenheit = [(9/5) * temp + 32 for temp in celsius]
 print(fahrenheit)
 ```
-
 Exercise 9: Extract Digits from a String
 Task: Given a string, create a list of digits found in the string.
-
 Normal Loop Way:
 ```python
 string = "There are 3 apples and 5 bananas"
@@ -174,7 +163,6 @@ string = "There are 3 apples and 5 bananas"
 digits = [char for char in string if char.isdigit()]
 print(digits)
 ```
-
 Exercise 10: List Comprehension with Dictionaries
 Task: Given a dictionary, create a list of keys that have even values.
 
@@ -188,13 +176,10 @@ for key, value in my_dict.items():
 
 print(even_keys)
 ```
-
 Comprehension List Way:
 ```python
 my_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 even_keys = [key for key, value in my_dict.items() if value % 2 == 0]
 print(even_keys)
 ```
-
 Try to work through these exercises and get comfortable with using list comprehensions. They are a very useful tool in Python programming.
-
