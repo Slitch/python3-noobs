@@ -3,6 +3,7 @@ Here are some exercises to help you get used to list comprehensions in Python.
 Exercise 1: Simple List Comprehension 
 
 Task: Create a list of squares for numbers from 1 to 10 using list comprehension.
+
 Normal loop way:
 ```python
 squares = []
@@ -58,6 +59,7 @@ print(lengths)
 Exercise 4: Conditional Expressions in List Comprehension 
 
 Task: Create a list of numbers from 1 to 20, but replace every number divisible by 3 with the string "Fizz".
+
 Normal Loop Way:
 ```python
 fizz_list = []
@@ -138,6 +140,7 @@ Exercise 8: Convert Celsius to Fahrenheit
 
 Task: Given a list of temperatures in Celsius, create a list of temperatures in Fahrenheit using the formula F=95C+32F=59​C+32.
 F=9/3 C + 32
+
 Normal Loop Way:
 ```python
 celsius = [0, 10, 20, 30, 40]
@@ -156,6 +159,7 @@ print(fahrenheit)
 Exercise 9: Extract Digits from a String 
 
 Task: Given a string, create a list of digits found in the string.
+
 Normal Loop Way:
 ```python
 string = "There are 3 apples and 5 bananas"
